@@ -55,8 +55,9 @@ Se precisar de mais alguma coisa ou tiver outras dúvidas, é só falar!
 
 'format': `bestaudio[ext=mp3]/best`
 
-`bestaudio` = Acho que não precisa de muita explicação né (melhor audio)
-`[ext=mp3]` = É uma forma de filtro , dizendo que quer o tipo mp3 
+
+`bestaudio` = Acho que não precisa de muita explicação né (melhor audio) <br>
+`[ext=mp3]` = É uma forma de filtro , dizendo que quer o tipo mp3 <br>
 `/best` = Significa que se não achar o tipo que você deseja (mp3) vai pegar o melhor
 
 
