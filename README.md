@@ -69,6 +69,6 @@ Se precisar de mais alguma coisa ou tiver outras dúvidas, é só falar!
 
 `ffmpeg -i video.mp4 -i audio.mp3 -c:v copy -c:a aac -b:a 192k -filter_complex "[1]adelay=1000|1000[a]" -map 0:v -map "[a]" video.mp4`
 
-troque "video" e "audio" pelo valor de  `'outtmpl': 'video.mp4'`<br>
-                                           esse =>     ☝
+troque "video" e "audio" pelo valor da variavel output `video_output = "video.mp4"`<br>
+------------------------------------------------------------------------ esse => ☝
                                            
