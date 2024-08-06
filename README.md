@@ -6,16 +6,17 @@ Conversa com chatGPT:
 
  ex: 
 
+```
+ config_do_video = {
+         'format': 'bestvideo[ext=mp4]/best' 
+         'outtmpl': 'video.mp4',
+         'noplaylist': True
+       }
 
- config_do_video = { <br>
-         'format': 'bestvideo[ext=mp4]/best' <br>
-         'outtmpl': 'video.mp4', <br>
-         'noplaylist': True <br>
-       } <br>
-<br>
- with yt_dlp.YoutubeDL(config_do_video) as ydl:<br>
+ with yt_dlp.YoutubeDL(config_do_video) as ydl:
    print('Baixando o audio...)
 
+```
 
 -- ChatGPT:
 
