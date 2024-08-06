@@ -6,7 +6,7 @@ Conversa com chatGPT:
 
  ex: 
 
-``
+\*
  config_do_video = {
          'format': 'bestvideo[ext=mp4]/best'
          'outtmpl': 'video.mp4',
@@ -16,7 +16,7 @@ Conversa com chatGPT:
  with yt_dlp.YoutubeDL(config_do_video) as ydl:
    print('Baixando o audio...)
     ydl.download([Youtube_url])
-``
+\*
 
 -- ChatGPT:
 
